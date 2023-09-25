@@ -18,6 +18,9 @@ header nav {
     background-color: rgb(33, 32, 32);
     justify-content: space-between;
     align-items: center;
+    height: 22dvh;
+    min-height: 150px;
+    margin-top: 0;
     height: 150px;
     flex-wrap: wrap;
     position: fixed;
