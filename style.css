@@ -184,7 +184,7 @@ li:nth-child(4) img {
 }
 
 main .first {
-    background: url(/images/bg-laptop.webp) no-repeat;
+    background: url(./images/bg-laptop.webp) no-repeat;
     background-size: cover;
     height: 100%;
     display: flex;
@@ -364,7 +364,7 @@ p:nth-child(2) {
 
 /*buttons end*/
 .first .first_right {
-    background-image: url(/images/macbook.png);
+    background-image: url(./images/macbook.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -643,7 +643,7 @@ p:nth-child(2) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('/images/photo-1519501025264-65ba15a82390.jpeg');
+    background: url('./images/photo-1519501025264-65ba15a82390.jpeg');
     padding: 60px 0;
     margin-bottom: 30px;
 }
@@ -690,7 +690,7 @@ p:nth-child(2) {
     padding: 0 50px;
     outline: none;
     margin-right: -10px;
-    background: white url('/images/icons8-mail-25.png') no-repeat 2% 50%;
+    background: white url('./images/icons8-mail-25.png') no-repeat 2% 50%;
     background-size: 30px;
     border-radius: 6px;
     border: 0px solid white;
@@ -767,7 +767,7 @@ p:nth-child(2) {
 }
 
 .fourth .with_img {
-    background: url('/images/person_laptop.jpg') no-repeat;
+    background: url('./images/person_laptop.jpg') no-repeat;
     background-size: cover;
     height: 670px;
     width: 650px;
@@ -942,7 +942,7 @@ p:nth-child(2) {
 }
 
 .fifth .with_img {
-    background: url('/images/client.jpg') no-repeat;
+    background: url('./images/client.jpg') no-repeat;
     background-position: 50%;
     height: 670px;
     width: 650px;
@@ -1433,7 +1433,7 @@ p:nth-child(2) {
 
 .tenth {
     display: flex;
-    background: url('/images/call-bg.jpg') no-repeat center;
+    background: url('./images/call-bg.jpg') no-repeat center;
     justify-content: space-between;
     color: white;
     padding: 5vw;
@@ -1636,7 +1636,7 @@ footer .footer_middle .two .outside .inside1,
 .footer_middle .three .get-update input[type="email"] {
     outline: none;
     height: 50px;
-    background-image: url('/images/icons8-mail-25.png');
+    background-image: url('./images/icons8-mail-25.png');
     background-repeat: no-repeat;
     background-position: 5% 50%;
     width: 100%;
