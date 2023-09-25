@@ -18,7 +18,7 @@ header nav {
     background-color: rgb(33, 32, 32);
     justify-content: space-between;
     align-items: center;
-    height: 107px;
+    height: 150px;
     flex-wrap: wrap;
     position: fixed;
     top: 0;
@@ -37,7 +37,6 @@ header nav ul {
 header .nav_left {
     display: flex;
     align-items: flex-start;
-    margin-left: 30px;
 }
 
 header .nav_right {
@@ -69,7 +68,8 @@ header .nav_right {
 }
 
 .nav_left #empire {
-    width: 118px;
+    width: 170px;
+    margin-left: 30px;
 }
 
 .nav_left li:nth-child(3) img,
@@ -119,12 +119,13 @@ li:nth-child(4) img {
     position: relative;
     padding: 13px;
     margin: 0 3px;
+    margin-top: 15px;
 }
 
 .nav_left ul li:nth-child(3) .company_submenu,
 #res .res_submenu {
     position: absolute;
-    left: -28%;
+    left: -22.5%;
     top: 100%;
     display: none;
 }
@@ -138,7 +139,7 @@ li:nth-child(4) img {
 
 .nav_left ul #com .submenu ul li,
 #res .submenu ul li {
-    width: 180px;
+    width: 220px;
     padding: 10px;
     margin: 2px;
 }
@@ -160,7 +161,10 @@ li:nth-child(4) img {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-
+.nav_left ul li{
+    font-size: 25px;
+    margin-top: 15px;
+}
 @keyframes downtoup {
     0% {
         transform: rotate(0deg);
@@ -170,25 +174,100 @@ li:nth-child(4) img {
         transform: rotate(180deg);
     }
 }
-
 .nav_left ul li:nth-child(3):hover .company_submenu,
 #res:hover .res_submenu {
     display: block;
     border: none;
 }
-
-@media only screen and (max-width:1100px) {
+header nav .bar_3{
+    display: none;
+}
+@media only screen and (max-width:1261px) {
     .nav_left ul {
         display: none;
     }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav_right{
+        display: flex;
+        flex-direction: column;
+    }
+    #empire{
+        display: block;
+        width: 180px;
+        margin: auto;
+    }
+    header nav  .bar_3{
+        display: flex;
+        flex-direction: column;   
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    header nav .bar_3 >div{
+        background-color: white;
+        margin: 3.5px;
+        height: 8px;
+        width: 50px;
+        border-radius: 3px;
+    }
 }
-
+header nav .bar_3:hover{
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+header nav .bar_3:hover .nav_left >ul{
+    display: block;
+    position: absolute;
+}
+header nav .bar_3_2{
+    display: none;
+}
+@media only screen and (max-width:356px){
+    header nav .nav_left #empire{
+        width: 1vw;
+    }
+    header nav .nav_right{
+        display: none;
+    }
+    header nav .nav_left #empire{
+        margin-left: 0;
+    }
+    header nav  .bar_3_2{
+        display: flex;
+        flex-direction: column;   
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    header nav .bar_3_2 >div{
+        background-color: white;
+        margin: 3.5px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 18px 2px gray;
+        animation: back 2s ease infinite;
+    }
+    @keyframes back{
+        0%{
+            background-color: white;
+        }
+        50%{
+            background-color: aqua;
+        }
+        100%{
+            background-color: white;
+        }
+    }
+}
 main .first {
     background: url(./images/bg-laptop.webp) no-repeat;
     background-size: cover;
     height: 100%;
     display: flex;
-    margin-top: 107px;
+    margin-top: 150px;
 }
 
 .first_left {
