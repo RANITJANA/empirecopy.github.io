@@ -128,7 +128,7 @@ li:nth-child(4) img {
 .nav_left ul li:nth-child(3) .company_submenu,
 #res .res_submenu {
     position: absolute;
-    left: -22.5%;
+    left: -24.8%;
     top: 100%;
     display: none;
 }
@@ -165,7 +165,7 @@ li:nth-child(4) img {
     animation-fill-mode: forwards;
 }
 .nav_left ul li{
-    font-size: 25px;
+    font-size: 21px;
     margin-top: 15px;
 }
 @keyframes downtoup {
@@ -194,18 +194,14 @@ header nav .bar_3{
         justify-content: space-between;
     }
     .nav_right{
+        margin-top: -20px;
         display: flex;
         flex-direction: column;
-    }
-    #empire{
-        display: block;
-        width: 180px;
-        margin: auto;
     }
     header nav  .bar_3{
         display: flex;
         flex-direction: column;   
-        margin-top: 30px;
+        margin-top: 0px;
         margin-left: 20px;
     }
     header nav .bar_3 >div{
